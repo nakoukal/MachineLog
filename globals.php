@@ -1,6 +1,6 @@
 <?php
 //nastaveni pristupu k databasi
-$dbHost = 'localhost';
+$dbHost = '192.168.1.98';
 $dbUser = 'operator';
 $dbPasswd = 'operator';
 $dbPort = '3306';

@@ -55,10 +55,10 @@ CREATE TABLE `error_log` (
 
 
 -- vytvoreni uzivatele pro vkladani dat do database
-GRANT USAGE ON *.* TO 'test'@'localhost';
-DROP USER 'test'@'localhost';
-CREATE USER 'test'@'localhost' IDENTIFIED BY PASSWORD '*94BDCEBE19083CE2A1F959FD02F964C7AF4CFC29';
-GRANT ALL PRIVILEGES ON datalogs.* TO 'test'@'localhost';
+GRANT USAGE ON *.* TO 'operator'@'localhost';
+DROP USER 'operator'@'localhost';
+CREATE USER 'operator'@'localhost' IDENTIFIED BY PASSWORD '*60CE05C60319F4878B7A51EDF3DC98089E0C6E26';
+GRANT ALL PRIVILEGES ON datalogs.* TO 'operator'@'localhost';
 
 -- vytvoreni uzivatele pro nahled na data
 GRANT USAGE ON *.* TO 'read'@'localhost';
