@@ -1,0 +1,1 @@
+c:\xampp\mysql\bin\mysql -h 127.0.0.1 -uroot -ptoor < c:\zal\createdb.sql
